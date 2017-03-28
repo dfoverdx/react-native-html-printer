@@ -1,0 +1,15 @@
+{
+  "name": "react-native-html-printer",
+  "version": "0.0.1",
+  "private": true,
+  "description": "React-Native wrapper for printing HTML",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dfoverdx/react-native-html-printer.git"
+  },
+  "peer-dependencies": {
+    "react-native": ">=0.42.0",
+  },
+  "author": "Jordan Hitch",
+  "license": "MIT"
+}
