@@ -8,7 +8,7 @@
     "url": "git@github.com:dfoverdx/react-native-html-printer.git"
   },
   "peer-dependencies": {
-    "react-native": ">=0.42.0",
+    "react-native": ">=0.42.0"
   },
   "author": "Jordan Hitch",
   "license": "MIT"
