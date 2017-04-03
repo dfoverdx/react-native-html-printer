@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1761FBC61E91CC8B00934AFC /* RNHtmlPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1761FBC51E91CC8B00934AFC /* RNHtmlPrinter.m */; };
+		1761FBC71E91CC8B00934AFC /* RNHtmlPrinter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1761FBC41E91CC8B00934AFC /* RNHtmlPrinter.h */; };
+		1761FBE91E91CE0300934AFC /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1761FBDA1E91CDE000934AFC /* libReact.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1761FBD91E91CDE000934AFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1761FBCE1E91CDE000934AFC /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
+			remoteInfo = React;
+		};
+		1761FBDB1E91CDE000934AFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1761FBCE1E91CDE000934AFC /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D2A28131D9B038B00D4039D;
+			remoteInfo = "React-tvOS";
+		};
+		1761FBDD1E91CDE000934AFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1761FBCE1E91CDE000934AFC /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3C059A1DE3340900C268FA;
+			remoteInfo = yoga;
+		};
+		1761FBDF1E91CDE000934AFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1761FBCE1E91CDE000934AFC /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3C06751DE3340C00C268FA;
+			remoteInfo = "yoga-tvOS";
+		};
+		1761FBE11E91CDE000934AFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1761FBCE1E91CDE000934AFC /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9251DE5FBEC00167DC4;
+			remoteInfo = cxxreact;
+		};
+		1761FBE31E91CDE000934AFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1761FBCE1E91CDE000934AFC /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9321DE5FBEE00167DC4;
+			remoteInfo = "cxxreact-tvOS";
+		};
+		1761FBE51E91CDE000934AFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1761FBCE1E91CDE000934AFC /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD90B1DE5FBD600167DC4;
+			remoteInfo = jschelpers;
+		};
+		1761FBE71E91CDE000934AFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1761FBCE1E91CDE000934AFC /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9181DE5FBD800167DC4;
+			remoteInfo = "jschelpers-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1761FBBF1E91CC8A00934AFC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				1761FBC71E91CC8B00934AFC /* RNHtmlPrinter.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1761FBC11E91CC8A00934AFC /* libRNHtmlPrinter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNHtmlPrinter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1761FBC41E91CC8B00934AFC /* RNHtmlPrinter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNHtmlPrinter.h; sourceTree = "<group>"; };
+		1761FBC51E91CC8B00934AFC /* RNHtmlPrinter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNHtmlPrinter.m; sourceTree = "<group>"; };
+		1761FBCE1E91CDE000934AFC /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1761FBBE1E91CC8A00934AFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1761FBE91E91CE0300934AFC /* libReact.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1761FBB81E91CC8A00934AFC = {
+			isa = PBXGroup;
+			children = (
+				1761FBC31E91CC8B00934AFC /* RNHtmlPrinter */,
+				1761FBC21E91CC8A00934AFC /* Products */,
+				1761FBCD1E91CD6B00934AFC /* Libraries */,
+			);
+			sourceTree = "<group>";
+		};
+		1761FBC21E91CC8A00934AFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1761FBC11E91CC8A00934AFC /* libRNHtmlPrinter.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1761FBC31E91CC8B00934AFC /* RNHtmlPrinter */ = {
+			isa = PBXGroup;
+			children = (
+				1761FBC41E91CC8B00934AFC /* RNHtmlPrinter.h */,
+				1761FBC51E91CC8B00934AFC /* RNHtmlPrinter.m */,
+			);
+			path = RNHtmlPrinter;
+			sourceTree = "<group>";
+		};
+		1761FBCD1E91CD6B00934AFC /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1761FBCE1E91CDE000934AFC /* React.xcodeproj */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		1761FBCF1E91CDE000934AFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1761FBDA1E91CDE000934AFC /* libReact.a */,
+				1761FBDC1E91CDE000934AFC /* libReact.a */,
+				1761FBDE1E91CDE000934AFC /* libyoga.a */,
+				1761FBE01E91CDE000934AFC /* libyoga.a */,
+				1761FBE21E91CDE000934AFC /* libcxxreact.a */,
+				1761FBE41E91CDE000934AFC /* libcxxreact.a */,
+				1761FBE61E91CDE000934AFC /* libjschelpers.a */,
+				1761FBE81E91CDE000934AFC /* libjschelpers.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1761FBC01E91CC8A00934AFC /* RNHtmlPrinter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1761FBCA1E91CC8B00934AFC /* Build configuration list for PBXNativeTarget "RNHtmlPrinter" */;
+			buildPhases = (
+				1761FBBD1E91CC8A00934AFC /* Sources */,
+				1761FBBE1E91CC8A00934AFC /* Frameworks */,
+				1761FBBF1E91CC8A00934AFC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNHtmlPrinter;
+			productName = RNHtmlPrinter;
+			productReference = 1761FBC11E91CC8A00934AFC /* libRNHtmlPrinter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1761FBB91E91CC8A00934AFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Jordan Hitch";
+				TargetAttributes = {
+					1761FBC01E91CC8A00934AFC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8R7QY65ARB;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1761FBBC1E91CC8A00934AFC /* Build configuration list for PBXProject "RNHtmlPrinter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1761FBB81E91CC8A00934AFC;
+			productRefGroup = 1761FBC21E91CC8A00934AFC /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1761FBCF1E91CDE000934AFC /* Products */;
+					ProjectRef = 1761FBCE1E91CDE000934AFC /* React.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1761FBC01E91CC8A00934AFC /* RNHtmlPrinter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1761FBDA1E91CDE000934AFC /* libReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReact.a;
+			remoteRef = 1761FBD91E91CDE000934AFC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1761FBDC1E91CDE000934AFC /* libReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReact.a;
+			remoteRef = 1761FBDB1E91CDE000934AFC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1761FBDE1E91CDE000934AFC /* libyoga.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libyoga.a;
+			remoteRef = 1761FBDD1E91CDE000934AFC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1761FBE01E91CDE000934AFC /* libyoga.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libyoga.a;
+			remoteRef = 1761FBDF1E91CDE000934AFC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1761FBE21E91CDE000934AFC /* libcxxreact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcxxreact.a;
+			remoteRef = 1761FBE11E91CDE000934AFC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1761FBE41E91CDE000934AFC /* libcxxreact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcxxreact.a;
+			remoteRef = 1761FBE31E91CDE000934AFC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1761FBE61E91CDE000934AFC /* libjschelpers.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjschelpers.a;
+			remoteRef = 1761FBE51E91CDE000934AFC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1761FBE81E91CDE000934AFC /* libjschelpers.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjschelpers.a;
+			remoteRef = 1761FBE71E91CDE000934AFC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1761FBBD1E91CC8A00934AFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1761FBC61E91CC8B00934AFC /* RNHtmlPrinter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1761FBC81E91CC8B00934AFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1761FBC91E91CC8B00934AFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1761FBCB1E91CC8B00934AFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8R7QY65ARB;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1761FBCC1E91CC8B00934AFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8R7QY65ARB;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1761FBBC1E91CC8A00934AFC /* Build configuration list for PBXProject "RNHtmlPrinter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1761FBC81E91CC8B00934AFC /* Debug */,
+				1761FBC91E91CC8B00934AFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1761FBCA1E91CC8B00934AFC /* Build configuration list for PBXNativeTarget "RNHtmlPrinter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1761FBCB1E91CC8B00934AFC /* Debug */,
+				1761FBCC1E91CC8B00934AFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1761FBB91E91CC8A00934AFC /* Project object */;
+}

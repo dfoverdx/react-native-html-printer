@@ -7,6 +7,7 @@
     "type": "git",
     "url": "git@github.com:dfoverdx/react-native-html-printer.git"
   },
+  "main": "index.js",
   "peer-dependencies": {
     "react-native": ">=0.42.0"
   },
