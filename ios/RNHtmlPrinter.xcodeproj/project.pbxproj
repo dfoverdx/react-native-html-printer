@@ -9,67 +9,7 @@
 /* Begin PBXBuildFile section */
 		1761FBC61E91CC8B00934AFC /* RNHtmlPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1761FBC51E91CC8B00934AFC /* RNHtmlPrinter.m */; };
 		1761FBC71E91CC8B00934AFC /* RNHtmlPrinter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1761FBC41E91CC8B00934AFC /* RNHtmlPrinter.h */; };
-		1761FBE91E91CE0300934AFC /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1761FBDA1E91CDE000934AFC /* libReact.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		1761FBD91E91CDE000934AFC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1761FBCE1E91CDE000934AFC /* React.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
-			remoteInfo = React;
-		};
-		1761FBDB1E91CDE000934AFC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1761FBCE1E91CDE000934AFC /* React.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2D2A28131D9B038B00D4039D;
-			remoteInfo = "React-tvOS";
-		};
-		1761FBDD1E91CDE000934AFC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1761FBCE1E91CDE000934AFC /* React.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3D3C059A1DE3340900C268FA;
-			remoteInfo = yoga;
-		};
-		1761FBDF1E91CDE000934AFC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1761FBCE1E91CDE000934AFC /* React.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3D3C06751DE3340C00C268FA;
-			remoteInfo = "yoga-tvOS";
-		};
-		1761FBE11E91CDE000934AFC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1761FBCE1E91CDE000934AFC /* React.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3D3CD9251DE5FBEC00167DC4;
-			remoteInfo = cxxreact;
-		};
-		1761FBE31E91CDE000934AFC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1761FBCE1E91CDE000934AFC /* React.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3D3CD9321DE5FBEE00167DC4;
-			remoteInfo = "cxxreact-tvOS";
-		};
-		1761FBE51E91CDE000934AFC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1761FBCE1E91CDE000934AFC /* React.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3D3CD90B1DE5FBD600167DC4;
-			remoteInfo = jschelpers;
-		};
-		1761FBE71E91CDE000934AFC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1761FBCE1E91CDE000934AFC /* React.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3D3CD9181DE5FBD800167DC4;
-			remoteInfo = "jschelpers-tvOS";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		1761FBBF1E91CC8A00934AFC /* CopyFiles */ = {
@@ -88,7 +28,6 @@
 		1761FBC11E91CC8A00934AFC /* libRNHtmlPrinter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNHtmlPrinter.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1761FBC41E91CC8B00934AFC /* RNHtmlPrinter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNHtmlPrinter.h; sourceTree = "<group>"; };
 		1761FBC51E91CC8B00934AFC /* RNHtmlPrinter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNHtmlPrinter.m; sourceTree = "<group>"; };
-		1761FBCE1E91CDE000934AFC /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +35,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1761FBE91E91CE0300934AFC /* libReact.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,24 +70,8 @@
 		1761FBCD1E91CD6B00934AFC /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				1761FBCE1E91CDE000934AFC /* React.xcodeproj */,
 			);
 			name = Libraries;
-			sourceTree = "<group>";
-		};
-		1761FBCF1E91CDE000934AFC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1761FBDA1E91CDE000934AFC /* libReact.a */,
-				1761FBDC1E91CDE000934AFC /* libReact.a */,
-				1761FBDE1E91CDE000934AFC /* libyoga.a */,
-				1761FBE01E91CDE000934AFC /* libyoga.a */,
-				1761FBE21E91CDE000934AFC /* libcxxreact.a */,
-				1761FBE41E91CDE000934AFC /* libcxxreact.a */,
-				1761FBE61E91CDE000934AFC /* libjschelpers.a */,
-				1761FBE81E91CDE000934AFC /* libjschelpers.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,77 +120,12 @@
 			mainGroup = 1761FBB81E91CC8A00934AFC;
 			productRefGroup = 1761FBC21E91CC8A00934AFC /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 1761FBCF1E91CDE000934AFC /* Products */;
-					ProjectRef = 1761FBCE1E91CDE000934AFC /* React.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				1761FBC01E91CC8A00934AFC /* RNHtmlPrinter */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		1761FBDA1E91CDE000934AFC /* libReact.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libReact.a;
-			remoteRef = 1761FBD91E91CDE000934AFC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		1761FBDC1E91CDE000934AFC /* libReact.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libReact.a;
-			remoteRef = 1761FBDB1E91CDE000934AFC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		1761FBDE1E91CDE000934AFC /* libyoga.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libyoga.a;
-			remoteRef = 1761FBDD1E91CDE000934AFC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		1761FBE01E91CDE000934AFC /* libyoga.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libyoga.a;
-			remoteRef = 1761FBDF1E91CDE000934AFC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		1761FBE21E91CDE000934AFC /* libcxxreact.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libcxxreact.a;
-			remoteRef = 1761FBE11E91CDE000934AFC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		1761FBE41E91CDE000934AFC /* libcxxreact.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libcxxreact.a;
-			remoteRef = 1761FBE31E91CDE000934AFC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		1761FBE61E91CDE000934AFC /* libjschelpers.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libjschelpers.a;
-			remoteRef = 1761FBE51E91CDE000934AFC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		1761FBE81E91CDE000934AFC /* libjschelpers.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libjschelpers.a;
-			remoteRef = 1761FBE71E91CDE000934AFC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1761FBBD1E91CC8A00934AFC /* Sources */ = {
